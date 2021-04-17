@@ -1,7 +1,7 @@
 
 
 # Idea
-As we know in this covid situation the 2nd wave is approaching hear is our idea to be safe
+The COVID19 pandemic outbreak has brought India into a critical situation. As we know the 2nd wave is approaching we have to fight the crisis with strict steps and with proper measures.Here is our idea to be safe and healthy.
 
 # More Details
  Health and Security
@@ -24,12 +24,11 @@ This documentation includes the features to be implemented and the sequence of t
 
 **After Log In/Sign In :**
 
-# Patent Details : 
+# Patient Details : 
 - One can see the Patient Details
 - Medicine given and past appointements with doctors
 - Can See near by hospitals
-- 
 
 # Questions
-- Do we add a section of volunteer.
+- Do we have a section about adding volunteers.
 
