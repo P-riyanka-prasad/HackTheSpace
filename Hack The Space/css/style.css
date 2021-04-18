@@ -15,6 +15,7 @@
     position: relative;
 
 }
+
 .header:before{
     content: "";
     position: absolute;
@@ -26,7 +27,21 @@
     z-index: -1;
     background:linear-gradient(to right,#1a2a6c 0%,#b21f1f 0%,#fdbb2d 100%) ;
 }
+
 .navbar:before{
+    content: "";
+    position: absolute;
+    top:0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    background:linear-gradient(to right,#b21f1f 0%,#1a2a6c 0%,#fdbb2d 100%) ;
+
+
+}
+.navbarpart2:before{
     content: "";
     position: absolute;
     top:0%;
@@ -230,5 +245,26 @@ h1{
     color: #ffc107;
 }
 
+input.hidden {
+    position: absolute;
+    left: -9999px;
+}
 
+#profile-image1 {
+    cursor: pointer;
+  
+     width: 100px;
+    height: 100px;
+	border:2px solid #03b1ce ;}
+	.tital{ font-size:16px; font-weight:500;}
+	 .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0}	
 
+.panel {
+    background:linear-gradient(to right,#0f0c29 0%,#302b63 0%,#24243e 100%) ;
+}
+.tital{
+    color: #fdbb2d;
+}
+.tital1{
+    color: #50d1c0;
+}
