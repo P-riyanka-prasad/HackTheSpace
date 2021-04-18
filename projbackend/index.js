@@ -3,7 +3,6 @@ require('dotenv').config();
 const express=require('express');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
-const cors=require('cors');
 const Pusher = require('pusher');
 
 
@@ -23,7 +22,6 @@ app.use((req, res, next) => {
 });
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors());
 let pusher = new Pusher({
     appId : "1189699",
 key : "29dcafd5a15ea6fb0fe3",

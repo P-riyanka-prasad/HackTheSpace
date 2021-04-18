@@ -1,7 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom';
 import Home from './components/Home';
-import Map1 from './components/Map1';
+import Login from './components/Login';
+import Map2 from './components/Map2';
+import Register from './components/Register';
 
 
 
@@ -12,7 +14,9 @@ const Routes=()=>{
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Home}/>
-                <Route path="/Map" exact component={Map1}/>
+                <Route path="/Map" exact component={Map2}/>
+                <Route path="/Register" exact component={Register}/>
+                <Route path="/Login" exact component={Login}/>
             </Switch>
         </BrowserRouter>
     );
