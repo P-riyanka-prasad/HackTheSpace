@@ -1,21 +1,20 @@
 import React from 'react';
 import { isAuthenticated } from '../auth/helper';
 import {Avatar} from '@material-ui/core';
+import './style.css';
 
 const Home=()=>{
     const Ava=()=>{
-        if(isAuthenticated)
+        if(isAuthenticated()){
         return(<div>
         <li><a href="/Profile">
         <Avatar  alt="Remy Sharp" src="/static/images/avatar/1.jpg" /></a></li>
-        </div>)
-        else
-        return(<div><li className="nav-item">
-        <a className="nav-link" href="login.html">Login</a>
+        </div>)}
+        else{
+        return(<li className="nav-item">
+        <a className="nav-link" href="/Register">Register</a>
     </li>
-    <li className="nav-item">
-        <a className="nav-link" href="login.html">Register</a>
-    </li></div>)
+    )}
     }
     return(<div id="section1"><div className="header" id="topheader">
     <nav className="navbar navbar-expand-lg  fixed-top">

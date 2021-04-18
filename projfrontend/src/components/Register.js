@@ -66,7 +66,7 @@ const Register=()=>{
             <input type="submit" name="" value="Sign Up" onClick={onSubmit}/>
 
             <a href="#">Lost your password?</a><br />
-            <a href="login.html"> have an account Login Here?</a>
+            <a href="/Login"> have an account Login Here?</a>
         </form>
 
     </div>
