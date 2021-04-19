@@ -1,5 +1,3 @@
-
-
 # Idea
 The COVID19 pandemic outbreak has brought India into a critical situation. As we know the 2nd wave is approaching we have to fight the crisis with strict steps and with proper measures.Here is our idea to be safe and healthy.
 
@@ -10,6 +8,15 @@ This documentation includes the features to be implemented and the sequence of t
 - [ ] Chatbot
 - [ ] Front end
 - [ ] Back end
+
+
+# Features implemented 
+- Implemented map API to show nearby Hospital 
+- Implemented the Agora API for vedio conferrencing
+- Have Registrating Feature 
+- Have Doctor Patient and Hospital (3 different roles)
+
+
 # Features included
 - Index page: Add Saftey measures section 
 - Dashboard : where all their information will be saved. 
