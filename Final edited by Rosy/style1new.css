@@ -1,0 +1,96 @@
+*
+{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(united-nations-covid-19-response-vDs7KenVpw0-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	
+	font-family: sans-serif;
+	div.transbox{
+	margin: 30px;
+	background-color:#ffffff;
+	border:1px solid black;
+	div.transbox p{
+		margin:5%;
+		font-weight:bold;
+		color:blue;
+	}
+	
+	
+	}
+	
+}
+.menu-bar
+{
+	background: rgb(102,255,255);
+	text-align: center;
+}
+.menu-bar ul
+{ 
+display: inline-flex ;
+list-style: none;
+color:black;
+}
+.menu-bar ul li
+{
+ width: 120px;
+ margin: 15px;
+ padding: 15px;
+ }
+ .menu-bar ul li a
+ {
+	 text-decoration:blink;
+	 color: #000099;
+ }
+ .active,.menu-bar ul li:hover
+ {
+	 background: #2bab0d;
+	 border-radius: 3px;
+ }
+ .menu-bar .glyphicon
+ {
+	 margin-right: 8px;
+ }
+ .sub-menu-1
+ {
+	 display:none;
+ }
+ .menu-bar ul li:hover .sub-menu-1
+ {
+	 display:block;
+	 position: absolute;
+	 background:rgb(102,255,255);
+	 margin-top:15px;
+	 margin-left:-15px;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul
+ {
+	 display: block;
+	 margin:10px;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul li
+ {
+	 width:150px;
+	 padding:10px;
+	 border-bottom: 1px dotted #fff;
+	 background: transparent;
+	 border-radius: 0;
+	 text-align: left;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul li:last child
+ {
+	 border-bottom:none ;
+ }
+ .menu-bar ul li:hover .sub-menu-1 ul li a:hover
+ {
+   color: #b2ff ;
+ }	 
+	 
+ }
+	 
+ 
